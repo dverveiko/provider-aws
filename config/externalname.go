@@ -319,6 +319,10 @@ var ExternalNameConfigs = map[string]config.ExternalName{
 	"aws_vpn_gateway_route_propagation": config.IdentifierFromProvider,
 	// Security Groups can be imported using the security group id
 	"aws_default_security_group": config.IdentifierFromProvider,
+	// VPC Peering Connection Accepters can be imported by using the Peering Connection ID
+	"aws_vpc_peering_connection_accepter": config.IdentifierFromProvider,
+	// VPC Peering Connection Options can be imported using the vpc peering id
+	"aws_vpc_peering_connection_options": config.IdentifierFromProvider,
 
 	// ecr
 	//
