@@ -8,6 +8,6 @@ on:
 
 jobs:
   community-issue-triage:
-    uses: upbound/uptest/.github/workflows/issue-triage.yml@main
+    uses: upbound/uptest/.github/workflows/issue-triage.yml@8965579a213ba2b249225fa311178ac66f107daf # main
     secrets:
       UPBOUND_BOT_GITHUB_TOKEN: ${{ secrets.UPBOUND_COMMUNITY_BOT_GITHUB_TOKEN }}
